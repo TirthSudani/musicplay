@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/549ff14bbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="con">
+        <div class="musi">
+            <nav>
+                <div class="cir">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="cir">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="thum.jpg" alt="loding img.." class="songimg">
+            <h1>Ve Haaniyaan</h1>
+            <p>Danny,Avvy sra,Sagar</p>
+
+            <audio  id="song">
+                <source src="Ve Haaniyaan - Avvy Sra 128 Kbps.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playpause()"><i class="fa-solid fa-play" id="ctricon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+       
+        </script>
+</body>
+</html
